@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "porfolio-jmsf",
   "version": "1.0.0",
   "private": true,
   "description": "A Gridsome starter using Windi CSS and Markdown to create a portfolio page",
@@ -14,9 +14,12 @@
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
-    "lint": "eslint --ext .ts,.js,.vue src"
+    "lint": "eslint --ext .ts,.js,.vue src",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "gridsome": "^0.7.23",
     "vue-material-design-icons": "^5.0.0",
     "vue-scrollactive": "^0.9.3"

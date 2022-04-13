@@ -8,10 +8,14 @@ Mantenimiento de imágenes, mejoras en la Web, posicionamiento en buscadores (SE
 
 Proyectos I+D:
 
-**ZoCo** Movilidad del área comercial a través de un dispositivo movil. Los comerciales de la empresa pueden consultar clientes, fichas de artículos, mandar partes de visitas, generar claves y recordar contraseñas para la web, administrar las fichas de los clientes, … a través de su dispositivo móvil.
+**ZoCo**
+Movilidad del área comercial a través de un dispositivo movil. Los comerciales de la empresa pueden consultar clientes, fichas de artículos, mandar partes de visitas, generar claves y recordar contraseñas para la web, administrar las fichas de los clientes, … a través de su dispositivo móvil.
 
-**Integración de servicio Web ADIMPO**:\*\* Haciendo uso del servicio web de uno de los proveedores de la empresa, realicé varias sistemas basados en él y enlazados con productos de la empresa para poder realizar búsquedas controlando si es perfil de compras o comercial, buscar consumibles según máquina en productos dados de alta en la empresa, control de precios de los productos de este proveedor, control de productos descatalogados o de “bajo pedido” de este proveedor,...
+**Integración de servicio Web ADIMPO**:
+Haciendo uso del servicio web de uno de los proveedores de la empresa, realicé varias sistemas basados en él y enlazados con productos de la empresa para poder realizar búsquedas controlando si es perfil de compras o comercial, buscar consumibles según máquina en productos dados de alta en la empresa, control de precios de los productos de este proveedor, control de productos descatalogados o de “bajo pedido” de este proveedor,...
 
-**Central de compras** Optimización y desarrollo de la tienda virtual para grandes cuentas de la empresa. Tanto para mejorar el servicio a clientes fidelizados como para poder integrar la herramienta según las normas de grandes corporaciones, BBK Cajasur o Cajamar Caja Rural.
+**Central de compras**
+Optimización y desarrollo de la tienda virtual para grandes cuentas de la empresa. Tanto para mejorar el servicio a clientes fidelizados como para poder integrar la herramienta según las normas de grandes corporaciones, BBK Cajasur o Cajamar Caja Rural.
 
-**Integración de servicios** Desarrollo de un protocolo de comunicación entre la empresa y su socia Rotger para la gestión de documentos basado en un Web Services.
+**Integración de servicios**
+Desarrollo de un protocolo de comunicación entre la empresa y su socia Rotger para la gestión de documentos basado en un Web Services.

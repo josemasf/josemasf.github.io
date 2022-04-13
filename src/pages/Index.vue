@@ -22,7 +22,7 @@
             <div
               class="flex-center border-t-1 md:border-t-0 border-l-0 md:border-l-1 w-auto md:w-2/3"
             >
-              <p class="leading-relaxed text-md md:text-base mx-auto md:mx-12 my-4 md:my-0">
+              <p class="leading-relaxed text-base md:text-lg mx-auto md:mx-12 my-4 md:my-0">
                 Arquitecto orientado al Frontend, aunque mis primeros 13 años laborales estuve desarrollando aplicaciones web con C#, por lo que tengo un alto conocimiento sobre arquitectura backend. <br /><br />
 
                 Durante mi vida laboral he tenido la oportunidad de desarrollar tanto proyectos ecommerce como aplicaciones web para la gestión y administración de empresas. Tengo experiencia en integración de servicios de terceros para la obtención de datos o sincronizanción de servicios.<br /><br />
@@ -61,11 +61,11 @@
             </div>
             <div class="flex flex-grow pl-4 md:pl-8 items-start">
               <div class="flex-grow mt-0 md:mt-6 pl-2 md:pl-8">
-                <h2 class="font-medium text-base md:text-lg mb-1 ">
+                <h2 class="font-medium text-base md:text-3xl mb-2 ">
                   {{ edge.node.company }}
                 </h2>
                 <div
-                  class="leading-relaxed text-xs md:text-base"
+                  class="leading-relaxed text-base md:text-lg"
                   v-html="edge.node.content"
                 />
               </div>
@@ -78,14 +78,12 @@
         <div class="flex-center flex-col container h-full m-auto">
           <div class="text-center w-full">
             <h1 class="font-medium text-base md:text-lg mb-4">
-              Some Things I’ve built
+              Cosas que he construido
             </h1>
             <p
               class="mx-auto leading-relaxed text-xs md:text-base lg:w-2/3 mb-4"
             >
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua.
+              Estos son unos pocos proyectos que he realizado como prueba de concepto o encargo a terceros.
             </p>
           </div>
           <!-- each project -->
@@ -137,13 +135,75 @@
           </div>
         </div>
       </section>
+      <!-- presentations -->
+      <section id="presentations" class="flex-center h-full  m-auto border-b-4">
+        <div class="flex-center flex-col container h-full m-auto">
+          <div class="text-center w-full">
+            <h1 class="font-medium text-base md:text-lg mb-4">
+              Cosas de las que he hablado
+            </h1>
+            <p
+              class="mx-auto leading-relaxed text-xs md:text-base lg:w-2/3 mb-4"
+            >
+              Algunas de las ponencias que he tenido la oportunidad de presentar en evntos coorporativos
+            </p>
+          </div>
+          <!-- each presentation -->
+          <div class="flex-center flex-wrap">
+            <div
+              class="m-4 md:w-1/3 lg:w-1/4"
+              v-for="edge in $page.allPresentations.edges"
+              :key="edge.node.id"
+            >
+              <div class="flex flex-row md:flex-col">
+                <div
+                  class="flex flex-col justify-start md:justify-center items-start md:items-center w-1/3 md:w-auto"
+                >
+                  <g-image
+                    class="rounded-lg object-contain"
+                    :src="edge.node.imgurl"
+                    :alt="edge.node.title"
+                  />
+                  <div class="flex-center space-x-2 md:space-x-4 m-4">
+                    <a
+                      :href="edge.node.github"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="Github"
+                    >
+                      <GithubIcon class="icon" />
+                    </a>
+                    <a
+                      :href="edge.node.url"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      :title="edge.node.title"
+                    >
+                      <OpenInNewIcon class="icon" />
+                    </a>
+                  </div>
+                </div>
+                <div class="ml-4 md:ml-0 w-auto">
+                  <h2 class="font-medium text-base md:text-lg">
+                    {{ edge.node.title }}
+                  </h2>
+                  <div
+                    class="mx-auto leading-relaxed text-xs md:text-base"
+                    v-html="edge.node.content"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- contact section -->
       <section id="contact" class="flex-center h-full  m-auto border-b-4">
         <div class="flex-center flex-col container h-full m-auto">
           <div>
             <div class="flex flex-col text-center w-full mb-4">
               <h1 class="font-medium text-base md:text-lg mb-4">
-                Get in touch with me
+                Contacta conmigo
               </h1>
               <p
                 class="mx-auto leading-relaxed text-xs md:text-base lg:w-2/3 pb-8"
@@ -179,6 +239,18 @@ query {
     }
   }
   allProjects(sortBy: "title", order: ASC) {
+    edges {
+      node {
+        id
+        title
+        url
+        github
+        content
+        imgurl
+      }
+    }
+  }
+  allPresentations(sortBy: "title", order: ASC) {
     edges {
       node {
         id

@@ -14,8 +14,12 @@ module.exports = {
     github: process.env.GITHUB_URL || "https://github.com/octocat",
     linkedin: process.env.LINKEDIN_URL || "https://www.linkedin.com/in/john-doe",
   },
-  plugins: [
-    {
+
+  icon: {
+    favicon: './src/assets/favicon/favicon-256x256.png',
+    touchicon: './src/assets/favicon/apple-touch-icon-192x192.png'
+  },
+  plugins: [{
       use: "@gridsome/source-filesystem",
       options: {
         baseDir: './content/experiences/',
@@ -33,6 +37,17 @@ module.exports = {
         baseDir: './content/projects/',
         path: "*.md",
         typeName: "Projects", // for the sake of naming GraphQL - template missing
+        remark: {
+          externalLinksTarget: '_blank',
+          externalLinksRel: ['noopener', 'noreferrer'],
+        },
+      },
+    }, {
+      use: "@gridsome/source-filesystem",
+      options: {
+        baseDir: './content/presentation/',
+        path: "*.md",
+        typeName: "Presentations", // for the sake of naming GraphQL - template missing
         remark: {
           externalLinksTarget: '_blank',
           externalLinksRel: ['noopener', 'noreferrer'],

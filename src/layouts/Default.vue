@@ -28,7 +28,7 @@
                 href="#about"
                 class="scrollactive-item text-header-color sm:inline-block sm:mt-0"
               >
-                about
+                sobre mi
               </a>
             </li>
             <li>
@@ -36,7 +36,7 @@
                 href="#experiences"
                 class="scrollactive-item text-header-color sm:inline-block sm:mt-0"
               >
-                experiences
+                experiencia
               </a>
             </li>
             <li>
@@ -44,7 +44,15 @@
                 href="#projects"
                 class="scrollactive-item text-header-color sm:inline-block sm:mt-0"
               >
-                projects
+                proyectos
+              </a>
+            </li>
+            <li>
+              <a
+                href="#presentations"
+                class="scrollactive-item text-header-color sm:inline-block sm:mt-0"
+              >
+                ponencias
               </a>
             </li>
             <li>
@@ -52,7 +60,7 @@
                 href="#contact"
                 class="scrollactive-item text-header-color sm:inline-block sm:mt-0"
               >
-                contact
+                contacto
               </a>
             </li>
           </ul>

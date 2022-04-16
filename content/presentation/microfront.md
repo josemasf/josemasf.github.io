@@ -1,9 +1,9 @@
 ---
 duration: "1h 30m"
 title: "Microfrontend"
-url: "https://myoctocat.com/"
-github: "https://github.com/octocat"
-imgurl: "https://dummyimage.com/200x200"
+url: "http://mf-presentation.vercel.app/"
+github: "https://github.com/josemasf/mf-presentation"
+imgurl: "https://www.spec-india.com/wp-content/uploads/2019/12/Micro_Frontend-2-768x422.png"
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+Explicación de funcionamiento de arquitectura microfrontend. Incluye un caso de uso a modo de ejemplo descargable.

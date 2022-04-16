@@ -29,7 +29,7 @@
 
                 Me considero una persona resolutiva e implicada en cada una de las tareas que realizo en mi día a día. Implicándome activamente en resolver problemas.<br /><br />
 
-                Tengo mucha curiosidad en investigar nuevas arquitecturas y técnicas modernas, intentándolas aplicarlas en mi día a día o haciendo pruebas de concepto personales para poder profundizar en su estudio.<br /><br />
+                Tengo mucha curiosidad en investigar nuevas arquitecturas y técnicas modernas, intentando aplicarlas en mi día a día o haciendo pruebas de concepto personales para poder profundizar en su estudio.<br /><br />
 
                 Me gusta aprender y enseñar lo aprendido siempre que tengo ocasión<br />
               </p>
@@ -145,7 +145,7 @@
             <p
               class="mx-auto leading-relaxed text-xs md:text-base lg:w-2/3 mb-4"
             >
-              Algunas de las ponencias que he tenido la oportunidad de presentar en evntos coorporativos
+              Algunas de las ponencias que he tenido la oportunidad de presentar en eventos coorporativos
             </p>
           </div>
           <!-- each presentation -->
@@ -205,13 +205,7 @@
               <h1 class="font-medium text-base md:text-lg mb-4">
                 Contacta conmigo
               </h1>
-              <p
-                class="mx-auto leading-relaxed text-xs md:text-base lg:w-2/3 pb-8"
-              >
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua.
-              </p>
+              
             </div>
             <div class="lg:w-1/2 md:w-2/3 mx-auto">
               <div class="flex flex-wrap">                

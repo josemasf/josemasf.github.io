@@ -20,7 +20,7 @@ export default {
           background: "var(--color-header-background)",
           color: "var(--color-header-color)",
           highlight: "var(--color-header-highlight)",
-        }, 
+        },
         content: {
           background: "var(--color-content-background)",
           color: "var(--color-content-color)",
@@ -36,8 +36,17 @@ export default {
   },
   scan: {
     dirs: ["./"],
-    exclude: ["node_modules", ".git", "dist", ".cache", ".temp"],
+    exclude: [
+      "node_modules",
+      ".git",
+      "dist",
+      ".cache",
+      "*.template.html",
+      "app.html",
+      "*.md",
+    ],
   },
+  transformCSS: "pre",
   preflight: {
     alias: {
       // add gridsome aliases
@@ -45,4 +54,8 @@ export default {
       "g-image": "img",
     },
   },
+  plugins: [
+    require("windicss/plugin/typography"),
+    // ...
+  ],
 }

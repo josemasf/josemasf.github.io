@@ -2,6 +2,7 @@
 company: "Vistalegre Solutions"
 from: "2007-03"
 to: "2017-03"
+sumary: "Destinando al departamento de IT, construí la arquitectura sobre la que se basaban varias de las herramientas de la empresa. Tienda B2C, tienda B2B, herramientas de soporte a otro departamentos, herramientas de automatización de procesos, QA, evolutivos, entre otras funciones."
 ---
 
 Mantenimiento de imágenes, mejoras en la Web, posicionamiento en buscadores (SEO) e I+D.

@@ -65,8 +65,8 @@
                   {{ edge.node.company }}
                 </h2>
                 <div
-                  class="leading-relaxed text-base md:text-lg"
-                  v-html="edge.node.content"
+                  class="leading-relaxed text-base md:text-lg prose"
+                  v-html="edge.node.sumary"
                 />
               </div>
             </div>
@@ -87,7 +87,7 @@
             </p>
           </div>
           <!-- each project -->
-          <div class="flex-center flex-wrap">
+          <div class="flex flex-center">
             <div
               class="m-4 md:w-1/3 lg:w-1/4"
               v-for="edge in $page.allProjects.edges"
@@ -98,7 +98,7 @@
                   class="flex flex-col justify-start md:justify-center items-start md:items-center w-1/3 md:w-auto"
                 >
                   <g-image
-                    class="rounded-lg object-contain"
+                    class="rounded-lg object-contain "
                     :src="edge.node.imgurl"
                     :alt="edge.node.title"
                   />
@@ -126,7 +126,7 @@
                     {{ edge.node.title }}
                   </h2>
                   <div
-                    class="mx-auto leading-relaxed text-xs md:text-base"
+                    class="mx-auto leading-relaxed text-xs md:text-base prose"
                     v-html="edge.node.content"
                   />
                 </div>
@@ -229,6 +229,7 @@ query {
         from
         to
         content
+        sumary
       }
     }
   }

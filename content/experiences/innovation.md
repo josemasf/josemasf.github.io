@@ -2,6 +2,7 @@
 company: "Innovation Strategies"
 from: "2018-03"
 to: "today"
+sumary: "Consultora especializada en transformación digital. En la que he aportado mi conocimientos en distintas áreas de la empresa. Asignado a varios clientes he podido aportar mis conocimientos en B2B e integración de servicios, como la amplicación de arquitecturas modernas, para facitar el escalado de aplicaciones"
 ---
 
 **Equipo de desarrollo One-Suite**

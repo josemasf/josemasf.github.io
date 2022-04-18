@@ -31,7 +31,7 @@ bower_components
 
 # various build folders
 build
-dist
+# dist
 public
 
 # various tmp dirs

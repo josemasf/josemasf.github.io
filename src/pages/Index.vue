@@ -49,7 +49,7 @@
               <div class="h-full w-1 bg-current pointer-events-none"></div>
             </div>
             <div
-              class="flex-center flex-shrink-0 w-18 h-18 md:w-28 md:h-28 rounded-full bg-content-highlight z-1"
+              class="flex-center-items flex-shrink-0 w-18 h-18 md:w-28 md:h-28 rounded-full bg-content-highlight z-1"
             >
               <div
                 class="flex flex-col text-center leading-none text-xs md:text-base font-weight-500"
@@ -98,7 +98,7 @@
                   class="flex flex-col justify-start md:justify-center items-start md:items-center w-1/3 md:w-auto"
                 >
                   <g-image
-                    class="rounded-lg object-contain "
+                    class="rounded-lg object-contain min-h-200px"
                     :src="edge.node.imgurl"
                     :alt="edge.node.title"
                   />
@@ -160,7 +160,7 @@
                   class="flex flex-col justify-start md:justify-center items-start md:items-center w-1/3 md:w-auto"
                 >
                   <g-image
-                    class="rounded-lg object-contain"
+                    class="rounded-lg object-contain min-h-200px"
                     :src="edge.node.imgurl"
                     :alt="edge.node.title"
                   />

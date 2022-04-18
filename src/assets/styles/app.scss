@@ -79,6 +79,10 @@ blockquote {
   @apply flex justify-center ;
 }
 
+.flex-center-items {
+  @apply flex justify-center items-center;
+}
+
 .absolute-center-x {
   @apply left-1/2;
   transform: translateX(-50%);

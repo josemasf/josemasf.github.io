@@ -2,7 +2,7 @@
 title: "QFM Radio"
 url: "https://qfmradio.es/#/"
 github: "#"
-imgurl: "https://gcdnb.pbrd.co/images/OwlrcRa01Ves.png?o=1"
+imgurl: "https://i.ibb.co/X58xcZk/qfm-radio.png"
 ---
 
 Web de radio aficionado realizada con Quasark

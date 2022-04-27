@@ -87,7 +87,7 @@
             </p>
           </div>
           <!-- each project -->
-          <div class="flex flex-center">
+          <div class="flex-wrap flex-center">
             <div
               class="m-4 md:w-1/3 lg:w-1/4"
               v-for="edge in $page.allProjects.edges"
